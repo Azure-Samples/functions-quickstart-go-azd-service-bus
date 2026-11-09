@@ -17,8 +17,8 @@ urlFragment: functions-quickstart-go-azd-service-bus
 # Azure Functions Go Service Bus Trigger
 
 This sample follows the [Go timer quickstart](https://github.com/Azure-Samples/functions-quickstart-go-azd-timer)
-and deploys to Linux Flex Consumption with `azd`. Go worker packages are preview
-packages. The `processOrder` function consumes JSON orders from the `orders` queue:
+and deploys to Linux Flex Consumption with `azd` using Go worker v1.0.0 (GA).
+The `processOrder` function consumes JSON orders from the `orders` queue:
 
 ```json
 {"orderId":"order-001","item":"coffee","quantity":2}
