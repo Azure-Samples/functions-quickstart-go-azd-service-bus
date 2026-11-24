@@ -1,0 +1,10 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+identity: Azure.Functions.Templates.ServiceBusGo
+description: Create a Go Azure Functions app for Service Bus Trigger, with Bicep infrastructure for deployment using azd.
+projects:
+- name: Azure Functions Service Bus Trigger (Go)
+  shortName: functions-quickstart-go-servicebus
+  root: .
+  stack: go
+  language: Go
